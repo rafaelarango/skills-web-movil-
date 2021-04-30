@@ -1,0 +1,152 @@
+@media screen and (min-width: 376px) and (max-width: 1440px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Libre Franklin", sans-serif;
+      }
+    
+    /*Skills */
+    .skills{
+        padding: 0px 165px 130px 165px; /* modificaciones para que la pagina no teng que deslizarse */
+        background-color: #FFFAF2;
+    }
+    
+    .skills-title-h1 {
+        margin: 0px;
+        padding-top: 40px;
+    } 
+  
+    .skills-title h1{
+        font-size: 24px;
+        padding-bottom: 86px;
+    }
+    
+    .skills-content{
+        height: 340px;
+        display: flex;
+    }
+
+    .skills-img{
+        margin-right: 125px;
+       
+    }
+
+    .skills-img img{
+        width: 350px;
+        height: 340px; 
+    }
+  
+    .skills-profile{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .skills-profile h4, h5{
+        margin:0;
+    }
+  
+    .skills-profile:first-child{
+        margin-bottom: 65px;
+    }
+
+    .skills-profile{
+        margin-bottom: 20px;
+    }
+    
+    /* Diseño de barras */
+    .barra{
+        width: 130%;
+        background: #F5D6AB;
+      }
+      
+      .barra-relleno-ux{
+        width: 90%;
+        height: 100%;
+        background:#C66C49;
+      }
+      
+      .barra-relleno-ui{
+        width: 80%;
+        height: 100%;
+        background:#C66C49;
+      }
+    
+      .barra-relleno-front{
+        width: 60%;
+        height: 100%;
+        background:#C66C49;
+      }
+    
+      
+ 
+}
+
+@media screen and (max-width:375px){
+    /* Skils */
+    .skills {
+        padding-top: 1em;
+        background-color: #fffaf2;
+        width: 375px;
+    }
+
+        .skills-title {
+            text-align: center;
+        }
+
+            .skills-title-h1 {
+            margin: 0 1em 0.5em 1em;
+        }
+
+        .skills-img {
+            text-align: center;
+        }
+
+        .skills-experience{
+            padding: 26px 34px 25px 32px;
+        }
+
+        .skills-profile {
+            display: flex;
+            justify-content: space-between;
+            margin: 1em 0;
+        }
+
+            .skills-profile-img {
+            height: 19px;
+            width: 150px;
+        }
+
+        .skills-h4 {
+            margin: 0;
+        } 
+
+    /* Diseño de barras */
+    .barra{
+        width: 65%;
+        background: #F5D6AB;
+      }
+      
+      .barra-relleno-ux{
+        width: 90%;
+        height: 100%;
+        background:#C66C49;
+      }
+      
+      .barra-relleno-ui{
+        width: 80%;
+        height: 100%;
+        background:#C66C49;
+      }
+    
+      .barra-relleno-front{
+        width: 60%;
+        height: 100%;
+        background:#C66C49;
+      }
+}
+
+
+
+
